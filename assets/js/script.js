@@ -91,7 +91,7 @@ let weather = {
         visibility_index.innerHTML = visibility / 1000;
         pressure_index.innerHTML = pressure;
         currentLocation.innerHTML = `${name}, ${country}`;
-
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name +"')"
         updateHumidityStatus(humidity);
         updateVisibiltyStatus(visibility);
 
